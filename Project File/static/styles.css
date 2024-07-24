@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #ff6f61;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50px;  
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.container {
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  bottom: 150px;
+  text-decoration: none;
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d31609;
+  cursor: pointer;
+}

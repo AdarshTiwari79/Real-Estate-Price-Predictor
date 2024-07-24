@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prediction Result</h1>
+      <p>The predicted value of price(in $1000) is: {{ prediction }}</p>
+      <a href="/"><button>Home</button></a>
+    </div>
+  </body>
+</html>

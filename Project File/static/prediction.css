@@ -1,0 +1,63 @@
+/* General styles */
+body {
+  background-image: url('prediction_background.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the form */
+.container {
+  max-width: 950px;
+  max-height: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+/* Style for the headings */
+h1, h2, h3{
+  margin: 10px 0;
+}
+
+/* Style for the form labels and inputs */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form-group label {
+  flex: 2;
+  text-align: left;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style for the predict button */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #ff5722;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: #f33a02;
+  cursor: pointer;
+}
+
